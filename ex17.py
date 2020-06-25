@@ -7,7 +7,7 @@ print(f"Copying from {from_file} to {to_file}")
 
 in_file = open(from_file).read()
 
-print(f"The input file is {len(infile)} bytes long")
+print(f"The input file is {len(in_file)} bytes long")
 
 print(f"Does the output file exist? {exists(to_file)}")
 print("Ready, hit RETURN to continue, CTRL-C to abort.")
